@@ -9,7 +9,7 @@ require (
 	github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b
 	github.com/aws/aws-lambda-go v1.24.0
 	github.com/aws/aws-sdk-go v1.38.60
-	github.com/aws/aws-sdk-go-v2 v0.24.0
+	github.com/aws/aws-sdk-go-v2 v0.19.0
 	github.com/casbin/casbin/v2 v2.31.3
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
@@ -116,4 +116,12 @@ require (
 	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/gcfg.v1 v1.2.3 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
+)
+
+exclude (
+	github.com/aws/aws-sdk-go-v2 v0.20.0
+	github.com/aws/aws-sdk-go-v2 v0.21.0
+	github.com/aws/aws-sdk-go-v2 v0.22.0
+	github.com/aws/aws-sdk-go-v2 v0.23.0
+	github.com/aws/aws-sdk-go-v2 v0.24.0
 )
